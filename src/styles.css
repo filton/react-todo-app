@@ -1,0 +1,23 @@
+.done label {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item.list-group-item {
+  position: relative;
+  display: flex;
+  padding: .75rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+div.container {
+  width: 50%;
+}
